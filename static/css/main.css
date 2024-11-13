@@ -1,0 +1,10 @@
+body {
+    background-color: bisque;
+}
+
+/* HEADER */
+
+.logo {
+    height: 64px;
+    width: 64px;
+}
