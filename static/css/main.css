@@ -1,10 +1,51 @@
 body {
+    background-color: beige;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+header, footer {
+    padding: 20px;
     background-color: bisque;
 }
 
-/* HEADER */
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-.logo {
-    height: 64px;
-    width: 64px;
+.content {
+    max-width: 100hv;
+    margin: 0 auto;
+    padding: 40px 20px;
+
+    flex: 1 1 auto;
+}
+
+.header__img {
+    height: 48px;
+    width: 48px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: bisque;
+    -webkit-box-shadow: 0 5px 25px  rgba(0, 0, 0, 0.15);
+        box-shadow: 0 5px 25px  rgba(0, 0, 0, 0.15);
+}
+
+/* FOOTER */
+
+.footer__img {
+    height: 48px;
+    width: 48px;
 }
